@@ -1,0 +1,15 @@
+.contact-us-container {
+	padding: 50px;
+    background-color: #9F4112;
+    color: #FFF;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 30px;
+    color: #FFF;
+}
+
+input, textarea{
+    width: 200px;
+}

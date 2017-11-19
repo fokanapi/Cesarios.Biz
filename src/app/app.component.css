@@ -1,0 +1,17 @@
+.container{
+    max-width: 1024px;
+    margin: auto;
+    width: 100%;        
+}
+
+@media (min-width: 737px) {
+    .container{
+        max-width: 1024px;        
+    }
+}
+
+@media (max-width: 736px) {
+    .container{
+        max-width: 736px;               
+    }
+}
