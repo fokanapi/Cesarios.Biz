@@ -1,31 +1,42 @@
 .about-us-container{
-    padding: 50px;
+    margin-top: 30px;
+    background-color: #A41807;  
 }
 
-.bg-body3{
-    background-image: url("../../assets/images/bg-body3.jpg");
-    background-color: #cccccc;  
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: 100% 100%;
+.bg-body3{   
     width: 100%;     
     height: 100%;	     
-    padding: 20px;
+    padding: 20px 50px;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 20px;
 }
 
-.bg-cesar{
-    background-image: url("../../assets/images/cesar.png");
-    background-color: #ccc;  
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    /* background-size: 100% 100%; */
+.bg-cesar{    
     width: 100%;          
-    height: 273px;	    
+    height: 100%;	    
+    padding-left: 50px;
+}
+
+img{   
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
     padding-bottom: 30px;
+    background-color: #FFF;
 }
+
+@media (max-width: 600px) {
+    .bg-body3 {        	     
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .bg-cesar {    
+        padding-left: 0px;
+    }
+}
+
+

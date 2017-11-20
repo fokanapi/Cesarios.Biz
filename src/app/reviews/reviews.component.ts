@@ -11,5 +11,4 @@ export class ReviewsComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

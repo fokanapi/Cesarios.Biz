@@ -1,19 +1,19 @@
 
 .bg-body1{
     background-image: url("../../assets/images/bg-body1.jpg");
-    background-color: #cccccc;  
-    background-repeat: no-repeat;
+    background-color: #FAF4E6;  
+    background-repeat: repeat;
     background-position: 50% 0;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     width: 100%;                 
 }
 
 .bg-body2{
     background-image: url("../../assets/images/bg-body2.jpg");
-    background-color: #cccccc;  
-    background-repeat: no-repeat;
+    background-color: #F7EAC8;  
+    background-repeat: repeat;
     background-position: 50% 0;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     width: 100%;          
 }
 
@@ -32,3 +32,15 @@ img{
     width: 100%;
     height: 100%;
 }
+
+
+@media (max-width: 600px) {
+    .product-content{
+        order: 1;
+        text-align: center;
+    }    
+    .product-image{
+        order: 2;
+    }
+}
+
